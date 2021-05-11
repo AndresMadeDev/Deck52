@@ -25,6 +25,12 @@
 		C1680C2A264A1306006EC17B /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1680C29264A1306006EC17B /* CustomSecureField.swift */; };
 		C1680C2C264A1836006EC17B /* AuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1680C2B264A1836006EC17B /* AuthVM.swift */; };
 		C1680C2E264A1C39006EC17B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1680C2D264A1C39006EC17B /* HomeView.swift */; };
+		C1A0E1B0264B3CEA00DD9625 /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1AF264B3CEA00DD9625 /* HomeCardView.swift */; };
+		C1A0E1B2264B3EB300DD9625 /* NewArrivalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1B1264B3EB300DD9625 /* NewArrivalView.swift */; };
+		C1A0E1B4264B3F7E00DD9625 /* KPIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1B3264B3F7E00DD9625 /* KPIView.swift */; };
+		C1A0E1B6264B427400DD9625 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1B5264B427400DD9625 /* BlurView.swift */; };
+		C1A0E1B8264B42A300DD9625 /* ManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1B7264B42A300DD9625 /* ManagerView.swift */; };
+		C1A0E1BA264B47BF00DD9625 /* TopSellersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1B9264B47BF00DD9625 /* TopSellersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +46,12 @@
 		C1680C29264A1306006EC17B /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		C1680C2B264A1836006EC17B /* AuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVM.swift; sourceTree = "<group>"; };
 		C1680C2D264A1C39006EC17B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C1A0E1AF264B3CEA00DD9625 /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
+		C1A0E1B1264B3EB300DD9625 /* NewArrivalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArrivalView.swift; sourceTree = "<group>"; };
+		C1A0E1B3264B3F7E00DD9625 /* KPIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIView.swift; sourceTree = "<group>"; };
+		C1A0E1B5264B427400DD9625 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		C1A0E1B7264B42A300DD9625 /* ManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerView.swift; sourceTree = "<group>"; };
+		C1A0E1B9264B47BF00DD9625 /* TopSellersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +118,12 @@
 		C1680C0D264A0E23006EC17B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C1680C25264A1176006EC17B /* SignInView.swift */,
+				C1A0E1B9264B47BF00DD9625 /* TopSellersView.swift */,
+				C1A0E1B7264B42A300DD9625 /* ManagerView.swift */,
+				C1A0E1B3264B3F7E00DD9625 /* KPIView.swift */,
+				C1A0E1B1264B3EB300DD9625 /* NewArrivalView.swift */,
 				C1680C2D264A1C39006EC17B /* HomeView.swift */,
+				C1680C25264A1176006EC17B /* SignInView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,6 +155,8 @@
 			children = (
 				C1680C27264A1265006EC17B /* CustomTextField.swift */,
 				C1680C29264A1306006EC17B /* CustomSecureField.swift */,
+				C1A0E1AF264B3CEA00DD9625 /* HomeCardView.swift */,
+				C1A0E1B5264B427400DD9625 /* BlurView.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -227,8 +245,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1680C2C264A1836006EC17B /* AuthVM.swift in Sources */,
+				C1A0E1B4264B3F7E00DD9625 /* KPIView.swift in Sources */,
+				C1A0E1BA264B47BF00DD9625 /* TopSellersView.swift in Sources */,
+				C1A0E1B8264B42A300DD9625 /* ManagerView.swift in Sources */,
+				C1A0E1B2264B3EB300DD9625 /* NewArrivalView.swift in Sources */,
 				C1680C2E264A1C39006EC17B /* HomeView.swift in Sources */,
+				C1A0E1B6264B427400DD9625 /* BlurView.swift in Sources */,
 				C1680C28264A1265006EC17B /* CustomTextField.swift in Sources */,
+				C1A0E1B0264B3CEA00DD9625 /* HomeCardView.swift in Sources */,
 				C1680C26264A1176006EC17B /* SignInView.swift in Sources */,
 				C1680C2A264A1306006EC17B /* CustomSecureField.swift in Sources */,
 				C1680C01264A0C97006EC17B /* ContentView.swift in Sources */,
