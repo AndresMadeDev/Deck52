@@ -12,6 +12,9 @@ struct HomeView: View {
     @EnvironmentObject var viewModel: AuthVM
     
     var body: some View {
+        
+        Text("Home view")
+        
         Button(action: {
             viewModel.signOut()
         }, label: {
