@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct Deck52App: App {
+    
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(AuthVM.shared)
         }
     }
 }

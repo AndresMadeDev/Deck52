@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var viewModel: AuthVM
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Group {
+            if viewModel.userSession == nil {
+                SignInView()
+            } else {
+                HomeView()
+            }
+           
+        }
     }
 }
 
