@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ManagerHomeView: View {
+    @State var signOutManagerView = false
     var body: some View {
         NavigationView {
             Form {
@@ -20,7 +21,15 @@ struct ManagerHomeView: View {
                 Section {
                     NavigationLink("Top Seller", destination: TopSellerEditView())
                 }
-            }.navigationTitle("Manager")
+            }
+            .navigationTitle("Manager")
+            .navigationBarItems(trailing: Button(action: {
+                signOutManagerView = true
+            }, label: {
+                Image(systemName: "xmark.circle")
+                    .font(.subheadline)
+                    .foregroundColor(.red)
+            }).fullScreenCover(isPresented: $signOutManagerView, content: HomeView.init))
            
         }
     }

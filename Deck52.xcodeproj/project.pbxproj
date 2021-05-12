@@ -31,12 +31,14 @@
 		C1A0E1B6264B427400DD9625 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1B5264B427400DD9625 /* BlurView.swift */; };
 		C1A0E1B8264B42A300DD9625 /* ManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1B7264B42A300DD9625 /* ManagerView.swift */; };
 		C1A0E1BA264B47BF00DD9625 /* TopSellersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1B9264B47BF00DD9625 /* TopSellersView.swift */; };
-		C1A0E1C2264B50D600DD9625 /* Store52ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1C1264B50D600DD9625 /* Store52ViewModel.swift */; };
 		C1A0E1C4264B51CE00DD9625 /* Store52Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1C3264B51CE00DD9625 /* Store52Model.swift */; };
 		C1A0E1C6264B528B00DD9625 /* ManagerHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1C5264B528B00DD9625 /* ManagerHomeView.swift */; };
 		C1A0E1C8264B549A00DD9625 /* KPIEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1C7264B549A00DD9625 /* KPIEditView.swift */; };
 		C1A0E1CA264B54DC00DD9625 /* NewArrivalEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1C9264B54DC00DD9625 /* NewArrivalEditView.swift */; };
 		C1A0E1CC264B54F200DD9625 /* TopSellerEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1CB264B54F200DD9625 /* TopSellerEditView.swift */; };
+		C1A0E1CE264C24B300DD9625 /* KPIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1CD264C24B300DD9625 /* KPIViewModel.swift */; };
+		C1A0E1D0264C29FD00DD9625 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1CF264C29FD00DD9625 /* AuthManager.swift */; };
+		C1A0E1D2264C319800DD9625 /* KPICell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1D1264C319800DD9625 /* KPICell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,12 +60,14 @@
 		C1A0E1B5264B427400DD9625 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		C1A0E1B7264B42A300DD9625 /* ManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerView.swift; sourceTree = "<group>"; };
 		C1A0E1B9264B47BF00DD9625 /* TopSellersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellersView.swift; sourceTree = "<group>"; };
-		C1A0E1C1264B50D600DD9625 /* Store52ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store52ViewModel.swift; sourceTree = "<group>"; };
 		C1A0E1C3264B51CE00DD9625 /* Store52Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Store52Model.swift; path = Deck52/ViewModel/Store52Model.swift; sourceTree = SOURCE_ROOT; };
 		C1A0E1C5264B528B00DD9625 /* ManagerHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerHomeView.swift; sourceTree = "<group>"; };
 		C1A0E1C7264B549A00DD9625 /* KPIEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIEditView.swift; sourceTree = "<group>"; };
 		C1A0E1C9264B54DC00DD9625 /* NewArrivalEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArrivalEditView.swift; sourceTree = "<group>"; };
 		C1A0E1CB264B54F200DD9625 /* TopSellerEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellerEditView.swift; sourceTree = "<group>"; };
+		C1A0E1CD264C24B300DD9625 /* KPIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIViewModel.swift; sourceTree = "<group>"; };
+		C1A0E1CF264C29FD00DD9625 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		C1A0E1D1264C319800DD9625 /* KPICell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPICell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				C1680C2B264A1836006EC17B /* AuthVM.swift */,
-				C1A0E1C1264B50D600DD9625 /* Store52ViewModel.swift */,
+				C1A0E1CD264C24B300DD9625 /* KPIViewModel.swift */,
+				C1A0E1CF264C29FD00DD9625 /* AuthManager.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				C1680C29264A1306006EC17B /* CustomSecureField.swift */,
 				C1A0E1AF264B3CEA00DD9625 /* HomeCardView.swift */,
 				C1A0E1B5264B427400DD9625 /* BlurView.swift */,
+				C1A0E1D1264C319800DD9625 /* KPICell.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -278,8 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1A0E1C2264B50D600DD9625 /* Store52ViewModel.swift in Sources */,
 				C1680C2C264A1836006EC17B /* AuthVM.swift in Sources */,
+				C1A0E1CE264C24B300DD9625 /* KPIViewModel.swift in Sources */,
 				C1A0E1C8264B549A00DD9625 /* KPIEditView.swift in Sources */,
 				C1A0E1B4264B3F7E00DD9625 /* KPIView.swift in Sources */,
 				C1A0E1BA264B47BF00DD9625 /* TopSellersView.swift in Sources */,
@@ -287,8 +293,10 @@
 				C1A0E1B8264B42A300DD9625 /* ManagerView.swift in Sources */,
 				C1A0E1C4264B51CE00DD9625 /* Store52Model.swift in Sources */,
 				C1A0E1B2264B3EB300DD9625 /* NewArrivalView.swift in Sources */,
+				C1A0E1D0264C29FD00DD9625 /* AuthManager.swift in Sources */,
 				C1680C2E264A1C39006EC17B /* HomeView.swift in Sources */,
 				C1A0E1B6264B427400DD9625 /* BlurView.swift in Sources */,
+				C1A0E1D2264C319800DD9625 /* KPICell.swift in Sources */,
 				C1A0E1CC264B54F200DD9625 /* TopSellerEditView.swift in Sources */,
 				C1680C28264A1265006EC17B /* CustomTextField.swift in Sources */,
 				C1A0E1B0264B3CEA00DD9625 /* HomeCardView.swift in Sources */,

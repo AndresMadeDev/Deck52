@@ -71,7 +71,7 @@ struct HomeView: View {
                                 }
                             VStack {
                                 Spacer()
-                                ManagerView()
+                                AuthManagerView()
                                 Spacer()
                                 
                                 Image(systemName: "xmark.circle")
