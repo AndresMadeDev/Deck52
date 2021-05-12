@@ -56,6 +56,7 @@ struct HomeView: View {
                         }, label: {
                             Text("Sign Out")
                         })
+                        Spacer()
                     }
                     .padding()
                     .navigationBarHidden(true)
