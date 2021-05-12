@@ -39,6 +39,8 @@
 		C1A0E1CE264C24B300DD9625 /* KPIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1CD264C24B300DD9625 /* KPIViewModel.swift */; };
 		C1A0E1D0264C29FD00DD9625 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1CF264C29FD00DD9625 /* AuthManager.swift */; };
 		C1A0E1D2264C319800DD9625 /* KPICell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1D1264C319800DD9625 /* KPICell.swift */; };
+		C1A0E1D4264C339200DD9625 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1D3264C339200DD9625 /* ImagePicker.swift */; };
+		C1A0E1D6264C35F700DD9625 /* TopSellersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1D5264C35F700DD9625 /* TopSellersViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		C1A0E1CD264C24B300DD9625 /* KPIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIViewModel.swift; sourceTree = "<group>"; };
 		C1A0E1CF264C29FD00DD9625 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		C1A0E1D1264C319800DD9625 /* KPICell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPICell.swift; sourceTree = "<group>"; };
+		C1A0E1D3264C339200DD9625 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		C1A0E1D5264C35F700DD9625 /* TopSellersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellersViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,7 @@
 				C1680C2B264A1836006EC17B /* AuthVM.swift */,
 				C1A0E1CD264C24B300DD9625 /* KPIViewModel.swift */,
 				C1A0E1CF264C29FD00DD9625 /* AuthManager.swift */,
+				C1A0E1D5264C35F700DD9625 /* TopSellersViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				C1A0E1AF264B3CEA00DD9625 /* HomeCardView.swift */,
 				C1A0E1B5264B427400DD9625 /* BlurView.swift */,
 				C1A0E1D1264C319800DD9625 /* KPICell.swift */,
+				C1A0E1D3264C339200DD9625 /* ImagePicker.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 				C1A0E1BA264B47BF00DD9625 /* TopSellersView.swift in Sources */,
 				C1A0E1CA264B54DC00DD9625 /* NewArrivalEditView.swift in Sources */,
 				C1A0E1B8264B42A300DD9625 /* ManagerView.swift in Sources */,
+				C1A0E1D4264C339200DD9625 /* ImagePicker.swift in Sources */,
 				C1A0E1C4264B51CE00DD9625 /* Store52Model.swift in Sources */,
 				C1A0E1B2264B3EB300DD9625 /* NewArrivalView.swift in Sources */,
 				C1A0E1D0264C29FD00DD9625 /* AuthManager.swift in Sources */,
@@ -298,6 +305,7 @@
 				C1A0E1B6264B427400DD9625 /* BlurView.swift in Sources */,
 				C1A0E1D2264C319800DD9625 /* KPICell.swift in Sources */,
 				C1A0E1CC264B54F200DD9625 /* TopSellerEditView.swift in Sources */,
+				C1A0E1D6264C35F700DD9625 /* TopSellersViewModel.swift in Sources */,
 				C1680C28264A1265006EC17B /* CustomTextField.swift in Sources */,
 				C1A0E1B0264B3CEA00DD9625 /* HomeCardView.swift in Sources */,
 				C1680C26264A1176006EC17B /* SignInView.swift in Sources */,

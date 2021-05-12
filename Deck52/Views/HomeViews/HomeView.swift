@@ -42,7 +42,7 @@ struct HomeView: View {
                             NavigationLink(
                                 destination: TopSellersView(),
                                 label: {
-                                    HomeCardView(title: "Top Seller", cardColor: #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1))
+                                    HomeCardView(title: "Top Seller", cardColor: #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1))
                                 })
                             Link(destination: URL(string: "https://www.ugg.com")!, label: {
                                 HomeCardView(title: "UGG.com", cardColor: #colorLiteral(red: 0, green: 0.5690457821, blue: 0.5746168494, alpha: 1))

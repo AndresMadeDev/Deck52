@@ -29,6 +29,7 @@ struct KPIModel: Identifiable, Codable {
 
 struct TopSellersModel: Identifiable, Codable {
     @DocumentID var id: String? = UUID().uuidString
+    var topSellerWeek: String
     var one: String
     var two: String
     var three: String
