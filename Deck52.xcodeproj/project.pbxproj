@@ -33,6 +33,10 @@
 		C1A0E1BA264B47BF00DD9625 /* TopSellersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1B9264B47BF00DD9625 /* TopSellersView.swift */; };
 		C1A0E1C2264B50D600DD9625 /* Store52ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1C1264B50D600DD9625 /* Store52ViewModel.swift */; };
 		C1A0E1C4264B51CE00DD9625 /* Store52Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1C3264B51CE00DD9625 /* Store52Model.swift */; };
+		C1A0E1C6264B528B00DD9625 /* ManagerHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1C5264B528B00DD9625 /* ManagerHomeView.swift */; };
+		C1A0E1C8264B549A00DD9625 /* KPIEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1C7264B549A00DD9625 /* KPIEditView.swift */; };
+		C1A0E1CA264B54DC00DD9625 /* NewArrivalEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1C9264B54DC00DD9625 /* NewArrivalEditView.swift */; };
+		C1A0E1CC264B54F200DD9625 /* TopSellerEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A0E1CB264B54F200DD9625 /* TopSellerEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +60,10 @@
 		C1A0E1B9264B47BF00DD9625 /* TopSellersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellersView.swift; sourceTree = "<group>"; };
 		C1A0E1C1264B50D600DD9625 /* Store52ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store52ViewModel.swift; sourceTree = "<group>"; };
 		C1A0E1C3264B51CE00DD9625 /* Store52Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Store52Model.swift; path = Deck52/ViewModel/Store52Model.swift; sourceTree = SOURCE_ROOT; };
+		C1A0E1C5264B528B00DD9625 /* ManagerHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerHomeView.swift; sourceTree = "<group>"; };
+		C1A0E1C7264B549A00DD9625 /* KPIEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIEditView.swift; sourceTree = "<group>"; };
+		C1A0E1C9264B54DC00DD9625 /* NewArrivalEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArrivalEditView.swift; sourceTree = "<group>"; };
+		C1A0E1CB264B54F200DD9625 /* TopSellerEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellerEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +108,7 @@
 				C1680C00264A0C97006EC17B /* ContentView.swift */,
 				C1680C11264A0F3F006EC17B /* Utility */,
 				C1680C10264A0F2B006EC17B /* API */,
-				C1680C0F264A0E3A006EC17B /* Models */,
+				C1680C0F264A0E3A006EC17B /* Model */,
 				C1680C0E264A0E2E006EC17B /* ViewModel */,
 				C1680C0D264A0E23006EC17B /* Views */,
 				C1680C02264A0C98006EC17B /* Assets.xcassets */,
@@ -137,12 +145,12 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		C1680C0F264A0E3A006EC17B /* Models */ = {
+		C1680C0F264A0E3A006EC17B /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				C1A0E1C3264B51CE00DD9625 /* Store52Model.swift */,
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C1680C10264A0F2B006EC17B /* API */ = {
@@ -179,6 +187,10 @@
 		C1A0E1BC264B4D3700DD9625 /* ManagersViews */ = {
 			isa = PBXGroup;
 			children = (
+				C1A0E1C7264B549A00DD9625 /* KPIEditView.swift */,
+				C1A0E1C5264B528B00DD9625 /* ManagerHomeView.swift */,
+				C1A0E1C9264B54DC00DD9625 /* NewArrivalEditView.swift */,
+				C1A0E1CB264B54F200DD9625 /* TopSellerEditView.swift */,
 			);
 			path = ManagersViews;
 			sourceTree = "<group>";
@@ -268,19 +280,23 @@
 			files = (
 				C1A0E1C2264B50D600DD9625 /* Store52ViewModel.swift in Sources */,
 				C1680C2C264A1836006EC17B /* AuthVM.swift in Sources */,
+				C1A0E1C8264B549A00DD9625 /* KPIEditView.swift in Sources */,
 				C1A0E1B4264B3F7E00DD9625 /* KPIView.swift in Sources */,
 				C1A0E1BA264B47BF00DD9625 /* TopSellersView.swift in Sources */,
+				C1A0E1CA264B54DC00DD9625 /* NewArrivalEditView.swift in Sources */,
 				C1A0E1B8264B42A300DD9625 /* ManagerView.swift in Sources */,
 				C1A0E1C4264B51CE00DD9625 /* Store52Model.swift in Sources */,
 				C1A0E1B2264B3EB300DD9625 /* NewArrivalView.swift in Sources */,
 				C1680C2E264A1C39006EC17B /* HomeView.swift in Sources */,
 				C1A0E1B6264B427400DD9625 /* BlurView.swift in Sources */,
+				C1A0E1CC264B54F200DD9625 /* TopSellerEditView.swift in Sources */,
 				C1680C28264A1265006EC17B /* CustomTextField.swift in Sources */,
 				C1A0E1B0264B3CEA00DD9625 /* HomeCardView.swift in Sources */,
 				C1680C26264A1176006EC17B /* SignInView.swift in Sources */,
 				C1680C2A264A1306006EC17B /* CustomSecureField.swift in Sources */,
 				C1680C01264A0C97006EC17B /* ContentView.swift in Sources */,
 				C1680BFF264A0C97006EC17B /* Deck52App.swift in Sources */,
+				C1A0E1C6264B528B00DD9625 /* ManagerHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
