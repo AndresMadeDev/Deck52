@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C123C4B6264D6F6600AF3491 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C123C4B5264D6F6600AF3491 /* Kingfisher */; };
+		C123C4B8264D70E700AF3491 /* UploadNewItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C123C4B7264D70E700AF3491 /* UploadNewItemViewModel.swift */; };
+		C123C4BA264D713900AF3491 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C123C4B9264D713900AF3491 /* ImageUploader.swift */; };
+		C123C4BC264D742900AF3491 /* NewArrivalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C123C4BB264D742900AF3491 /* NewArrivalViewModel.swift */; };
+		C123C4BE264D74A000AF3491 /* NewArrivalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C123C4BD264D74A000AF3491 /* NewArrivalCell.swift */; };
 		C1680BFF264A0C97006EC17B /* Deck52App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1680BFE264A0C97006EC17B /* Deck52App.swift */; };
 		C1680C01264A0C97006EC17B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1680C00264A0C97006EC17B /* ContentView.swift */; };
 		C1680C03264A0C98006EC17B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1680C02264A0C98006EC17B /* Assets.xcassets */; };
@@ -44,6 +49,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C123C4B7264D70E700AF3491 /* UploadNewItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadNewItemViewModel.swift; sourceTree = "<group>"; };
+		C123C4B9264D713900AF3491 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageUploader.swift; path = Deck52/ViewModel/ImageUploader.swift; sourceTree = SOURCE_ROOT; };
+		C123C4BB264D742900AF3491 /* NewArrivalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArrivalViewModel.swift; sourceTree = "<group>"; };
+		C123C4BD264D74A000AF3491 /* NewArrivalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArrivalCell.swift; sourceTree = "<group>"; };
 		C1680BFB264A0C97006EC17B /* Deck52.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deck52.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1680BFE264A0C97006EC17B /* Deck52App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck52App.swift; sourceTree = "<group>"; };
 		C1680C00264A0C97006EC17B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +91,7 @@
 				C1680C1A264A10BB006EC17B /* FirebaseFirestoreSwift-Beta in Frameworks */,
 				C1680C1C264A10BB006EC17B /* FirebaseStorageSwift-Beta in Frameworks */,
 				C1680C22264A10BB006EC17B /* FirebaseMessaging in Frameworks */,
+				C123C4B6264D6F6600AF3491 /* Kingfisher in Frameworks */,
 				C1680C18264A10BB006EC17B /* FirebaseDatabase in Frameworks */,
 				C1680C20264A10BB006EC17B /* FirebaseFunctions in Frameworks */,
 				C1680C1E264A10BB006EC17B /* FirebaseStorage in Frameworks */,
@@ -151,6 +161,8 @@
 				C1A0E1CD264C24B300DD9625 /* KPIViewModel.swift */,
 				C1A0E1CF264C29FD00DD9625 /* AuthManager.swift */,
 				C1A0E1D5264C35F700DD9625 /* TopSellersViewModel.swift */,
+				C123C4B7264D70E700AF3491 /* UploadNewItemViewModel.swift */,
+				C123C4BB264D742900AF3491 /* NewArrivalViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -166,6 +178,7 @@
 		C1680C10264A0F2B006EC17B /* API */ = {
 			isa = PBXGroup;
 			children = (
+				C123C4B9264D713900AF3491 /* ImageUploader.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -179,6 +192,7 @@
 				C1A0E1B5264B427400DD9625 /* BlurView.swift */,
 				C1A0E1D1264C319800DD9625 /* KPICell.swift */,
 				C1A0E1D3264C339200DD9625 /* ImagePicker.swift */,
+				C123C4BD264D74A000AF3491 /* NewArrivalCell.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -232,6 +246,7 @@
 				C1680C1F264A10BB006EC17B /* FirebaseFunctions */,
 				C1680C21264A10BB006EC17B /* FirebaseMessaging */,
 				C1680C23264A10BB006EC17B /* FirebaseAuth */,
+				C123C4B5264D6F6600AF3491 /* Kingfisher */,
 			);
 			productName = Deck52;
 			productReference = C1680BFB264A0C97006EC17B /* Deck52.app */;
@@ -262,6 +277,7 @@
 			mainGroup = C1680BF2264A0C97006EC17B;
 			packageReferences = (
 				C1680C14264A10BB006EC17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C123C4B4264D6F6600AF3491 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = C1680BFC264A0C97006EC17B /* Products */;
 			projectDirPath = "";
@@ -292,13 +308,16 @@
 			files = (
 				C1680C2C264A1836006EC17B /* AuthVM.swift in Sources */,
 				C1A0E1CE264C24B300DD9625 /* KPIViewModel.swift in Sources */,
+				C123C4BA264D713900AF3491 /* ImageUploader.swift in Sources */,
 				C1A0E1C8264B549A00DD9625 /* KPIEditView.swift in Sources */,
 				C1A0E1B4264B3F7E00DD9625 /* KPIView.swift in Sources */,
 				C1A0E1BA264B47BF00DD9625 /* TopSellersView.swift in Sources */,
 				C1A0E1CA264B54DC00DD9625 /* NewArrivalEditView.swift in Sources */,
+				C123C4BC264D742900AF3491 /* NewArrivalViewModel.swift in Sources */,
 				C1A0E1B8264B42A300DD9625 /* ManagerView.swift in Sources */,
 				C1A0E1D4264C339200DD9625 /* ImagePicker.swift in Sources */,
 				C1A0E1C4264B51CE00DD9625 /* Store52Model.swift in Sources */,
+				C123C4BE264D74A000AF3491 /* NewArrivalCell.swift in Sources */,
 				C1A0E1B2264B3EB300DD9625 /* NewArrivalView.swift in Sources */,
 				C1A0E1D0264C29FD00DD9625 /* AuthManager.swift in Sources */,
 				C1680C2E264A1C39006EC17B /* HomeView.swift in Sources */,
@@ -307,6 +326,7 @@
 				C1A0E1CC264B54F200DD9625 /* TopSellerEditView.swift in Sources */,
 				C1A0E1D6264C35F700DD9625 /* TopSellersViewModel.swift in Sources */,
 				C1680C28264A1265006EC17B /* CustomTextField.swift in Sources */,
+				C123C4B8264D70E700AF3491 /* UploadNewItemViewModel.swift in Sources */,
 				C1A0E1B0264B3CEA00DD9625 /* HomeCardView.swift in Sources */,
 				C1680C26264A1176006EC17B /* SignInView.swift in Sources */,
 				C1680C2A264A1306006EC17B /* CustomSecureField.swift in Sources */,
@@ -503,6 +523,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		C123C4B4264D6F6600AF3491 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.0;
+			};
+		};
 		C1680C14264A10BB006EC17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -514,6 +542,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C123C4B5264D6F6600AF3491 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C123C4B4264D6F6600AF3491 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		C1680C15264A10BB006EC17B /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C1680C14264A10BB006EC17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

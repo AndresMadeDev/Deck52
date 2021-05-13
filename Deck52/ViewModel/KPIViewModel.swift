@@ -22,9 +22,10 @@ class KPI: ObservableObject {
                 print("No Documents........")
                 return
             }
-
-            self.kpi = documents.compactMap{(QueryDocumentSnapshot) -> KPIModel? in
-                return try? QueryDocumentSnapshot.data(as: KPIModel.self)
+            DispatchQueue.main.async {
+                self.kpi = documents.compactMap{(QueryDocumentSnapshot) -> KPIModel? in
+                    return try? QueryDocumentSnapshot.data(as: KPIModel.self)
+                }
             }
         }
     }

@@ -20,10 +20,10 @@ class TopSellerModel: ObservableObject{
                 print("No Documents........")
                 return
             }
-
-            self.topSeller = documents.compactMap{(QueryDocumentSnapshot) -> TopSellersModel? in
-                return try? QueryDocumentSnapshot.data(as: TopSellersModel.self)
-                                
+            DispatchQueue.main.async {
+                self.topSeller = documents.compactMap{(QueryDocumentSnapshot) -> TopSellersModel? in
+                    return try? QueryDocumentSnapshot.data(as: TopSellersModel.self)
+                }
             }
         }
     }

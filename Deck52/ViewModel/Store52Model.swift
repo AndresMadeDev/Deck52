@@ -41,3 +41,4 @@ struct TopSellersModel: Identifiable, Codable {
     var nine: String
     var ten: String
 }
+
