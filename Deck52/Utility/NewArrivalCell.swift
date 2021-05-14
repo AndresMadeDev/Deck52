@@ -7,27 +7,32 @@
 
 import SwiftUI
 import Kingfisher
+import SDWebImageSwiftUI
 
 struct NewArrivalCell: View {
     
     let title: String
     let imgeUrl: String
     
+    
     var body: some View {
         VStack {
-            HStack {
-                Text(title)
-                    .bold()
-                    .font(.title3)
-                    .padding()
+            VStack(spacing: 5) {
+                HStack {
+                    Text(title)
+                        .bold()
+                        .font(.title3)
+                        .padding(.leading)
                     
-                Spacer()
-            }
+                    Spacer()
+                }
+                
+                
                 KFImage(URL(string: imgeUrl))
                     .resizable()
-                    .scaledToFit()
-                    .frame(width: 400, height: 300)
+                    .aspectRatio(contentMode: .fit)
+                    
+            }.padding(.vertical)
         }
-
     }
 }

@@ -12,6 +12,7 @@
 		C123C4BA264D713900AF3491 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C123C4B9264D713900AF3491 /* ImageUploader.swift */; };
 		C123C4BC264D742900AF3491 /* NewArrivalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C123C4BB264D742900AF3491 /* NewArrivalViewModel.swift */; };
 		C123C4BE264D74A000AF3491 /* NewArrivalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C123C4BD264D74A000AF3491 /* NewArrivalCell.swift */; };
+		C123C4C1264EB60B00AF3491 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C123C4C0264EB60B00AF3491 /* SDWebImageSwiftUI */; };
 		C1680BFF264A0C97006EC17B /* Deck52App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1680BFE264A0C97006EC17B /* Deck52App.swift */; };
 		C1680C01264A0C97006EC17B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1680C00264A0C97006EC17B /* ContentView.swift */; };
 		C1680C03264A0C98006EC17B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1680C02264A0C98006EC17B /* Assets.xcassets */; };
@@ -88,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C123C4C1264EB60B00AF3491 /* SDWebImageSwiftUI in Frameworks */,
 				C1680C1A264A10BB006EC17B /* FirebaseFirestoreSwift-Beta in Frameworks */,
 				C1680C1C264A10BB006EC17B /* FirebaseStorageSwift-Beta in Frameworks */,
 				C1680C22264A10BB006EC17B /* FirebaseMessaging in Frameworks */,
@@ -247,6 +249,7 @@
 				C1680C21264A10BB006EC17B /* FirebaseMessaging */,
 				C1680C23264A10BB006EC17B /* FirebaseAuth */,
 				C123C4B5264D6F6600AF3491 /* Kingfisher */,
+				C123C4C0264EB60B00AF3491 /* SDWebImageSwiftUI */,
 			);
 			productName = Deck52;
 			productReference = C1680BFB264A0C97006EC17B /* Deck52.app */;
@@ -278,6 +281,7 @@
 			packageReferences = (
 				C1680C14264A10BB006EC17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				C123C4B4264D6F6600AF3491 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				C123C4BF264EB60B00AF3491 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = C1680BFC264A0C97006EC17B /* Products */;
 			projectDirPath = "";
@@ -531,6 +535,14 @@
 				minimumVersion = 6.3.0;
 			};
 		};
+		C123C4BF264EB60B00AF3491 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
 		C1680C14264A10BB006EC17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -546,6 +558,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C123C4B4264D6F6600AF3491 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		C123C4C0264EB60B00AF3491 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C123C4BF264EB60B00AF3491 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 		C1680C15264A10BB006EC17B /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;

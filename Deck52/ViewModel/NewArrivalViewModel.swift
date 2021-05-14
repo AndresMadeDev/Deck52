@@ -25,10 +25,9 @@ class NewArrivalViewModel: ObservableObject {
                 print("No Documents........")
                 return
             }
-                DispatchQueue.main.async {
-                    self.newArrivalVM = documents.compactMap{(QueryDocumentSnapshot) -> NewArrivalModel? in
+                  self.newArrivalVM = documents.compactMap{(QueryDocumentSnapshot) -> NewArrivalModel? in
                         return try? QueryDocumentSnapshot.data(as: NewArrivalModel.self)
-                }
+                
                
             }
         }

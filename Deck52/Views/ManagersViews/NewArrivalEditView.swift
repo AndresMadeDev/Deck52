@@ -56,6 +56,7 @@ struct NewArrivalEditView: View {
                 })
                 
             TextField("Enter Item Name", text: $captionText)
+                .autocapitalization(.allCharacters)
                 .padding(.vertical, 20)
                 
                 

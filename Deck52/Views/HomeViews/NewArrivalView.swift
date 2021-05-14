@@ -10,17 +10,14 @@ import SwiftUI
 struct NewArrivalView: View {
     @ObservedObject private var viewModel = NewArrivalViewModel()
     var body: some View {
-        ScrollView {
-            LazyVStack(spacing: 32) {
+        ScrollView(.vertical) {
+            LazyVStack(spacing: 10) {
                 ForEach(viewModel.newArrivalVM) { item in
-                    NewArrivalCell(title: item.itemName, imgeUrl: item.imageURL)
+                        NewArrivalCell(title: item.itemName, imgeUrl: item.imageURL)
                 }
-            }.navigationTitle("New Arrivel")
-            .navigationBarTitleDisplayMode(.inline)
-            .onAppear{
-                self.viewModel.fetchNewArrivalData()
+            }.padding(.top, 30)
         }
-        }
+        .navigationTitle("New Arrivel")
     }
 }
 

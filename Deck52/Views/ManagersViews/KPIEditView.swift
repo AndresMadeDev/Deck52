@@ -32,7 +32,7 @@ struct KPIEditView: View {
                 TextField("Conversion", text: $conv)
                     .keyboardType(.numbersAndPunctuation)
                 TextField("ADS", text: $ads)
-                    .keyboardType(.numbersAndPunctuation)
+                    .keyboardType(.numberPad)
                 TextField("UPT", text: $upt)
                     .keyboardType(.numbersAndPunctuation)
             }

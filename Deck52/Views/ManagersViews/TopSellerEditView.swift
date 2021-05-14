@@ -29,19 +29,30 @@ struct TopSellerEditView: View {
         Form {
             Section{
                 TextField("Week", text: $topSellerWeek)
+                    .keyboardType(.numberPad)
             }
             
             Section(header: Text("Top 10")) {
                 TextField("1", text: $one)
+                    .autocapitalization(.allCharacters)
                 TextField("2", text: $two)
+                    .autocapitalization(.allCharacters)
                 TextField("3", text: $three)
+                    .autocapitalization(.allCharacters)
                 TextField("4", text: $four)
+                    .autocapitalization(.allCharacters)
                 TextField("5", text: $five)
+                    .autocapitalization(.allCharacters)
                 TextField("6", text: $six)
+                    .autocapitalization(.allCharacters)
                 TextField("7", text: $seven)
+                    .autocapitalization(.allCharacters)
                 TextField("8", text: $eight)
+                    .autocapitalization(.allCharacters)
                 TextField("9", text: $nine)
+                    .autocapitalization(.allCharacters)
                 TextField("10", text: $ten)
+                    .autocapitalization(.allCharacters)
             }
             Button(action: {
                 updateData()
